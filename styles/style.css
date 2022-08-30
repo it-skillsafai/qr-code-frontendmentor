@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-white: #ffffff;
+  --clr-light-gray: #d6e2f0;
+  --clr-grayish-blue: #7b879d;
+  --clr-dark-blue: #1f3251;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--clr-light-gray);
+}
+
+/* global styles */
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: var(--clr-white);
+  padding: 1.1rem;
+  width: 320px;
+  margin: 10rem auto;
+  border-radius: 10px;
+}
+
+.card-img-container {
+  margin-bottom: 1rem;
+}
+
+.card-img-container img {
+  border-radius: 10px;
+}
+
+.card-content-container {
+  margin: 1rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 22.5px;
+  font-weight: 700;
+  color: var(--clr-dark-blue);
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  color: var(--clr-grayish-blue);
+  font-weight: 400;
+}
+/* default font size of a paragraph is 16px */
+/* How to get fonts */
